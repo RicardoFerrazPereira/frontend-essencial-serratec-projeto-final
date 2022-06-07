@@ -1,0 +1,72 @@
+.nav {
+    color: #fff;
+}
+
+.cor-menu{
+    background-color: #40026C;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+
+h1 {
+    text-align: center;
+    /* margin-top: 100px; */
+    padding: 20px;
+}
+
+form {
+    margin: 40px 350px;
+   
+}
+
+form lable, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.atendimento {
+    margin-top: 10px;
+}
+
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 30%;
+    padding: 15px 0;
+    background: #40026C;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+
+}
+
+.enviar:hover {
+    background: #73389c;
+    transform: scale(1.1); 
+    
+}
+
+.menu {
+    background-color: #40026C !important;
+    margin-bottom: 30px;
+}
+
+.menu a {
+    color: #fff !important;
+}

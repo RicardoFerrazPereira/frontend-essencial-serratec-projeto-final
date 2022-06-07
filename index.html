@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">  
+    <title>Cooperativa Popular</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/logo5.png" alt="" height="45px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/empresas.html">Empresas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/sobreNos.html">Sobre Nós</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner texto-carousel">
+                    <div class="carousel-item active">
+                        <img src="./img/reuniao.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Mapeamento de competências</h5>
+                            <p>Nosso time está preparado para encontrar o melhor candidato para a sua vaga!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/notebook.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Simples e rápido</h5>
+                            <p>Contrate as pessoas certas com eficiência e agilidade</p>                            
+                        </div>
+                    </div>                                        
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+    <!-- <div class="container-fluid" id="fundo">
+        <div class="row">
+            <div class="col-7">
+                <h1 id="texto-fundo">texto aqui</h1>
+            </div>
+            <div class="col-5">
+                <img src="./img/homem-celular-sem-fundo.png" id="homem-celular" alt="homem mexendo no celular"> 
+            </div>
+        </div>   -->
+
+    </div>
+    <div>
+        <h3>Confira os últimos talentos cadastrados</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 espacamento">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" id="foto0" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="nome0">Card title</h5>
+                        <p class="card-text" id="localizacao0">texto.</p>
+                        <a href="./pages/clientes.html" class="btn btn-primary corBotao">Clientes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 espacamento">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" id="foto1" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="nome1">Card title</h5>
+                        <p class="card-text" id="localizacao1">texto</p>
+                        <a href="./pages/clientes.html" class="btn btn-primary corBotao">Clientes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 espacamento">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" id="foto2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="nome2">Card title</h5>
+                        <p class="card-text" id="localizacao2">texto</p>
+                        <a href="./pages/clientes.html" class="btn btn-primary corBotao">Clientes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-12  col-lg-4 espacamento">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" id="foto3" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="nome3">Card title</h5>
+                        <p class="card-text" id="localizacao3">texto</p>
+                        <a href="./pages/clientes.html" class="btn btn-primary corBotao">Clientes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 espacamento">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" id="foto4" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title" id="nome4">Card title</h5>
+                        <p class="card-text" id="localizacao4">texto</p>
+                        <a href="./pages/clientes.html" class="btn btn-primary corBotao">Clientes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <footer class="rodape">        
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-bootstrap-plain"></i>
+        <i class="devicon-visualstudio-plain"></i>      
+    </footer>
+
+    <!-- <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/script1.js"></script> 
+    <div id="ptifrmtarget"></div>
+</body>
+
+</html>
